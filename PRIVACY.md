@@ -16,6 +16,7 @@ blocks.
 | **Your VPN provider**, if you turned the VPN on | All of Bastion's traffic | Which sites you connect to, and when (not page content, which stays encrypted). Your real IP address. |
 | **Microsoft** (the WebView2 engine) | SmartScreen checks of pages and downloads for phishing and malware; engine components | Addresses of some pages you visit, for the safety check. Bastion blocks Microsoft's engine-configuration service and some engine telemetry. The engine itself is updated by Windows, separately from Bastion. |
 | **GitHub** (Bastion's releases page) | Once a day, if "Check for updates automatically" is on, and when you click "Check now" or install an update | That a copy of Bastion is checking for updates, and your IP address (the VPN's while it's on). Nothing else is sent. |
+| **Bastion's maker, by email** (F3-Fireball@proton.me) | Only when you click "Send by email" and then send the message from your own email app | What you write, your Bastion version and settings summary, the Connection log only if you tick it, and your email address. Not public. |
 | **GitHub** (issues) | Only when you click "Open GitHub issue" and then submit it | What you write, your Bastion version and settings summary, and the Connection log only if you tick it. Issues are public. |
 
 ## What stays on your computer
@@ -30,4 +31,4 @@ blocks.
 
 ## Questions
 
-Ask on the [releases page's issues](https://github.com/sevanboyajian/bastion-releases/issues).
+Email F3-Fireball@proton.me, or ask on the [releases page's issues](https://github.com/sevanboyajian/bastion-releases/issues).

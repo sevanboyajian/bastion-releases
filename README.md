@@ -46,18 +46,30 @@ click. You can turn the daily check off in ☰ Settings.
 
 ## Report a problem
 
-In Bastion, open **☰ Settings → Send feedback**, describe what happened and
-click **Open GitHub issue**. It fills in your Bastion version and settings
-for you; you can edit everything before you submit. Or
-[open an issue](https://github.com/sevanboyajian/bastion-releases/issues/new)
-directly. You need a free GitHub account.
+In Bastion, open **☰ Settings → Send feedback** and describe what happened.
+Bastion fills in your version and settings; you can edit everything before
+it goes out. Then choose:
 
-Issues are public, so leave out personal details. The Connection log is only
-included if you tick it, because it shows which sites you visited.
+- **Send by email**: opens your own email app with the report addressed to
+  **F3-Fireball@proton.me**. No GitHub account needed, and only Bastion's
+  maker sees it. Without an email app, just write to that address.
+- **Open GitHub issue**: opens a new
+  [issue](https://github.com/sevanboyajian/bastion-releases/issues/new) on
+  this page. You need a free GitHub account, and issues are public, so leave
+  out personal details.
+
+The Connection log is only included if you tick it, because it shows which
+sites you visited.
 
 If a site doesn't work, click 🛡️ on that page and **Turn off blocking for**
 that site. If that fixes it, please report the site so the blocklist can be
 fixed for everyone.
+
+## About the "Source code" downloads
+
+GitHub adds **Source code (zip)** and **(tar.gz)** links to every release.
+They only contain this page's files (this README and the privacy policy).
+Bastion's own source code is not published.
 
 ## Uninstall
 
